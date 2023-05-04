@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inconsolata:wght@200&display=swap');
 
+:root{
+    --vidro:rgba(255, 255, 255, 0.5);
+}
 
 *{
     margin: 0;
@@ -40,6 +43,7 @@ body{
 
 .hobbies > h2{
     margin: 20px auto 30px auto;
+    font-size: 30px;
 }
 
 .content{
@@ -49,23 +53,128 @@ body{
     justify-content: space-around;
 }
 
+.content > div{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .card{
+    position: relative;
     background-color: rgb(35, 35, 35,0.3);
     color: #fff;
     border-radius: 10px;
     height: 80vh;
     width: 30vw;
     font-size: 30px;
+    
 }
 
 
-.card > img{
-    width: 80%;
+.card > h2{
+    text-align: center;
 }
 
 .card_musica{
     background-image: url(/imagens/Juice\ wrld.gif);
     background-size: cover;
+    background-position: center;
 }
 
+.card_anime{
+    background-image: url(/imagens/luffy.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.card_series{
+    background-image: url(/imagens/breaking_bad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.card_hover{
+    position: relative;
+    background-color: rgb(35, 35, 35,0.3);
+    background-image: none;
+    color: #fff;
+    border-radius: 10px;
+    width: 65vw;
+    font-size: 30px;  
+}
+
+.card_mini{
+    width: 15vw;
+    margin-right: 5px;
+}
+
+.content_anime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.gif_luffy{
+    margin:30px auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background: url(/imagens/luffy2.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 10px 0px 30px rgb(35, 35, 35);
+}
+
+.card_text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.card_text > a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    max-width:200px;
+    margin-top: 25px;
+    border-bottom: 3px solid #fff ;
+    transition: border 0.2s ease-;
+}
+
+.card_text > a:hover{
+    border: 3px solid #fff ;
+}
+
+.juice_cover{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.juice_cover > img {
+    width: 100%;
+    text-align: center;
+}
+
+.bb_gif{
+    margin:30px auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background: url(/imagens/breaking_bad.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 10px 0px 30px rgb(35, 35, 35);
+}
