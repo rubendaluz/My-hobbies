@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+
     const card_anime = document.querySelector(".card_anime");
     const card_musica = document.querySelector(".card_musica");
     const card_series = document.querySelector(".card_series");
@@ -6,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const content_musica = document.getElementById("content_musica");
     const content_anime = document.getElementById("content_anime");
     const content_series = document.getElementById("content_series");
+    
 
     card_anime.addEventListener('mouseover',() => {
         card_musica.classList.add("card_mini");

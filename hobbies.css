@@ -26,7 +26,9 @@ body{
     padding:20px;
     border-bottom: 1px solid #fff;
     max-width: 95%;
-    margin: 15px auto;
+    height: 10vh;
+    margin: 10px auto;
+    font-size: 20px;
 }
 
 .menu > ul{
@@ -45,7 +47,6 @@ body{
     color: #fff;
     padding: 10px;
     margin-right: 20px;
-    font-size: 20px;
 }
 
 .menu a:hover{
@@ -60,7 +61,6 @@ body{
 
 .relacao h1{
     margin: 30px auto;
-    font-size: 40px;
 }
 
 .relacao .content{
@@ -82,7 +82,7 @@ body{
 }
 
 .relacao_text span{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -97,7 +97,6 @@ body{
 .preferencias h2{
     color: #fff;
     margin-top: 20px;
-    font-size: 40px;
 }
 
 .artista_preferido{
@@ -106,8 +105,6 @@ body{
     text-align: center;
     padding: 20px;
     justify-content: center;
-    margin: auto;
-    max-width: 80vw;
 }
 
 .artista_preferido .foto{
@@ -123,14 +120,13 @@ body{
 }
 
 .descricao_juice{
-    max-width: 40vw;
+    max-width: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 70px;
     margin-right: 30px;
-    font-size: 30px;
 }
 
 
@@ -151,7 +147,6 @@ body{
 
 .artistas_preferidos p{
     padding: 7px;
-    font-size: 30px;
 }
 
 .artistas_preferidos h2{
@@ -169,7 +164,6 @@ body{
 
 .musicas_preferidas p{
     padding: 7px;
-    font-size: 30px;
 }
 
 .generos_preferidos{
@@ -183,7 +177,6 @@ body{
 
 .generos_preferidos p{
     padding: 7px;
-    font-size: 30px;
 }
 
 .cards_artistas{
