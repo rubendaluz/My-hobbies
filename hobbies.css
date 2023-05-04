@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inconsolata:wght@200&display=swap');
+
+:root{
+    --vidro:rgba(255, 255, 255, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background:rgba(0, 0, 0, 50);
+    color: #fff;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 20vh;
+    position: static;
+    justify-content: space-around;
+    color: #fff;
+    padding:20px;
+    border-bottom: 1px solid #fff;
+    max-width: 95%;
+    margin: 10px auto;
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.menu > li{
+    padding: 10px 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.relacao{
+    text-align: center;
+    height: 80vh;
+}
+
+.relacao h1{
+    margin: 30px auto;
+}
+
+.preferencias{
+    border-top: 1px solid #fff;
+    max-width: 95vw;
+    margin: auto auto;
+    text-align: center;
+    height: 100vh;
+}
+
+.preferencias h2{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.artista_preferido{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.artista_preferido .foto{
+    width: 400px;
+    height: 400px;
+    border: 4px solid #fff;
+    background: url(/imagens/Juice-Wrld.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+    margin: 15px;
+}
+
+.descricao_juice{
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+
+.outras_preferencias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto;
+}
+
+.artistas_preferidos{
+    margin: auto;
+}
+
+.artistas_preferidos div{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.artistas_preferidos p{
+    padding: 7px;
+}
+
+.artistas_preferidos h2{
+    margin: 10px auto;
+}
+
+.musicas_preferidas{
+    margin: auto;
+}
+
+.musicas_preferidas div{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.musicas_preferidas p{
+    padding: 7px;
+}
+
+.generos_preferidos{
+    margin: auto;
+}
+
+.generos_preferidos div{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.generos_preferidos p{
+    padding: 7px;
+}
+
+.cards_artistas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    margin: auto 10px;
+    text-align: center;
+}
+
+.card > h3{
+    margin: 15px;
+}
+
+.card .foto{
+    max-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#card_juice .foto{
+    background: url(/imagens/Juice-Wrld.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#card_giveon .foto{
+    background: url(/imagens/giveon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#card_badbunny .foto{
+    background: url(/imagens/bad\ bunny.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#card_theweeknd .foto{
+    background: url(/imagens/theweeknd.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
